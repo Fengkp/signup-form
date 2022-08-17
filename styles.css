@@ -1,0 +1,48 @@
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #658E9C;
+    color: white;
+}
+
+body {
+    
+    margin: 0;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: auto;
+    max-width: 50%;
+    background-color: #DBE9EE;
+}
+
+.name-container,
+.contact-container,
+.password-container {
+    display: flex; 
+} 
+
+input {
+    border: solid 3px #4A6FA5;
+    border-radius: 5px;
+    height: 28px;
+    width: 250px;
+    box-shadow: inset;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-right: 50px;
+}
+
+form {
+    background-color: white;
+}
+
